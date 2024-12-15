@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 0;
+}
+nav {
+    margin: 10px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.content {
+    padding: 20px;
+}
+footer {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+img {
+    width: 200px;
+    margin: 10px;
+}
+/* Página de contacto */
+form input, form textarea {
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 400px;
+    padding: 5px;
+}
+form button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #b71c1c;
+}
+
+/* Estilo para videos */
+video {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+}
